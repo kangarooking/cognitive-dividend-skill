@@ -1,0 +1,54 @@
+{
+  "skill": "dialysis-prism",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "有个问题一直找不到根本原因，表面上看解决了但过几天又出现了",
+      "reason": "用户反复解决问题但反复出现，透析三棱镜核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "团队里的沟通问题解决了很多次，但每次换一批人又出问题，到底是哪里出了毛病？",
+      "reason": "问题反复出现，需找根本原因，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "遇到一个复杂的问题，不知道是什么原因导致的，怎么才能找到真正的根源？",
+      "reason": "用户遇到问题不知原因，想找根本原因"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次减肥都会反弹，反反复复好几次了，到底是什么深层原因导致的？",
+      "reason": "问题反复出现，需深挖根本原因"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "我的Java代码报了一个NullPointerException，帮我看看怎么修？",
+      "reason": "具体bug修复，非透析三棱镜思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "网站加载速度很慢，帮我排查一下是前端还是后端的问题？",
+      "reason": "具体技术问题排查，非思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "手机黑屏开不了机了，怎么处理？硬重启也不行",
+      "reason": "具体设备故障修复，非透析三棱镜"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "项目延期的问题反复出现，每次都说是需求变更导致的，但我觉得根本原因不在这里",
+      "reason": "从具体问题延伸到根因分析思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "客户投诉总是集中在同一类问题上，修了又出，是不是我们的流程设计有问题？",
+      "reason": "涉及根因分析但偏具体业务流程"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

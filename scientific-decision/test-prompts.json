@@ -1,0 +1,54 @@
+{
+  "skill": "scientific-decision",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "现在面临两个选择，各有优劣，纠结了好久还是不知道怎么选",
+      "reason": "用户面临二选一困境，科学决策核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "要在两个offer之间做选择，一个钱多但累，一个轻松但钱少，怎么决策才科学？",
+      "reason": "用户面临选择纠结，科学决策核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次做决定都靠直觉或者掷骰子，有没有更科学的决策方法？",
+      "reason": "用户想要科学决策方法，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "重大人生选择不知道怎么选，怕选错了后悔，怎么才能做出好决策？",
+      "reason": "用户面临重大选择恐惧，科学决策场景"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下北京到上海的高铁票价和航班价格对比",
+      "reason": "帮查资料类请求，非决策思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "能帮我搜索一下这两个型号的笔记本电脑哪个配置更好吗？",
+      "reason": "资料查询比较，非科学决策思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "帮我找几篇关于新能源行业发展趋势的报告",
+      "reason": "资料搜集请求，不涉及决策思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "帮我分析一下考研和就业各自的优劣，我想做一个理性的选择",
+      "reason": "涉及决策但包含资料分析请求"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "买房子的时候除了价格还要考虑哪些因素？有没有决策框架可以参考？",
+      "reason": "涉及决策框架但偏具体购房场景"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

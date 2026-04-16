@@ -1,0 +1,54 @@
+{
+  "skill": "evolution-strategy",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "计划总是赶不上变化，做了详细的计划但每次都被打乱，该怎么办？",
+      "reason": "用户面对计划赶不上变化，演化策略核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "现在环境变化太快了，完全预测不了未来会怎样，怎么在混乱中找到方向？",
+      "reason": "用户面对高度不确定性，演化策略核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次精心制定的策略都因为外界变化而失效，是不是该换一种思维方式？",
+      "reason": "用户意识到计划思维失效，需演化思维"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "在一个完全不确定的环境里，与其做计划不如快速试错，这种思路对吗？",
+      "reason": "用户思考在不确定中前进的方式，核心触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "Scrum和Kanban哪个更适合小团队？Sprint周期怎么定？",
+      "reason": "项目管理方法论（Scrum），非演化策略思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "怎么用Jira做敏捷项目管理？用户故事怎么拆分？",
+      "reason": "具体项目管理工具和方法，非演化策略"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "OKR和KPI怎么选？怎么制定合理的绩效目标？",
+      "reason": "目标管理方法论，不属于演化策略"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "创业公司用敏捷开发还是瀑布流？市场变化太快了，经常需要调整方向",
+      "reason": "涉及应对变化但偏项目管理方法论"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "产品迭代是应该按计划走还是根据用户反馈随时调整？",
+      "reason": "涉及计划vs适应的权衡，但偏产品管理"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

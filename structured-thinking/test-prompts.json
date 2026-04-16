@@ -1,0 +1,54 @@
+{
+  "skill": "structured-thinking",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "脑子里想法很多，但完全理不出头绪，思维很混乱，怎么才能想清楚？",
+      "reason": "用户思维混乱，结构化思维核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次开会发言都说不到重点，表达没有逻辑，领导总说我想清楚了再说",
+      "reason": "用户表达没逻辑，结构化思维核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "面对一个新问题，完全不知道从哪里入手分析，脑子一团浆糊",
+      "reason": "用户不知从何入手分析问题，结构化思维核心"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想学习结构化地思考问题，让自己的分析更有条理、更有深度",
+      "reason": "用户主动想学结构化思维，核心触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "有什么好用的思维导图软件推荐？XMind和MindNode哪个好？",
+      "reason": "思维导图工具推荐，非结构化思维方法"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "怎么用Miro做头脑风暴？有没有好的模板？",
+      "reason": "具体工具使用问题，非思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "幕布这个大纲工具好不好用？适合什么场景？",
+      "reason": "工具推荐咨询，不属于结构化思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我用了思维导图梳理想法，但还是觉得分析不够深入，是不是方法不对？",
+      "reason": "从工具使用延伸到思维方法层面"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "怎么才能在做方案的时候把问题拆解得更有条理？现在总是遗漏要点",
+      "reason": "涉及结构化拆解但偏具体工作场景"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,54 @@
+{
+  "skill": "systems-thinking",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "我们加了一个新功能，结果导致另一个模块出了问题，这种连锁反应怎么避免？",
+      "reason": "方案带来新问题，系统思维核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "公司出台了一个政策想解决问题，结果反而让情况更糟了，为什么会这样？",
+      "reason": "干预导致意料之外的后果，系统思维核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想理解一个复杂系统是怎么运作的，各个部分之间怎么互相影响，该从哪里入手？",
+      "reason": "用户想理解复杂系统，系统思维核心"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次头痛医头脚痛医脚，问题总是按下一个葫芦浮起一个瓢，是不是需要系统性思考？",
+      "reason": "用户意识到局部修复不够，需要系统思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "怎么设计一个微服务架构？服务之间怎么拆分比较合理？",
+      "reason": "软件系统架构设计，非系统思维认知框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "Kubernetes集群的容器编排怎么做？有没有最佳实践？",
+      "reason": "技术系统架构问题，非认知层面的系统思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "推荐几本关于分布式系统的技术书籍？",
+      "reason": "技术系统书籍推荐，非系统思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "产品做了一个优化提升了转化率，但用户留存却下降了，这两个指标之间有什么系统性关系？",
+      "reason": "涉及系统因果关系，但偏产品运营分析"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "团队效率一直上不去，加了人反而更慢了，这背后有什么系统性规律吗？",
+      "reason": "涉及系统反直觉现象，但偏团队管理"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

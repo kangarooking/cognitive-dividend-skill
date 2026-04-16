@@ -1,0 +1,54 @@
+{
+  "skill": "potential-energy",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "现在有两个行业的offer，一个传统行业一个新兴行业，该怎么选？",
+      "reason": "用户面临行业选择，势能核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "在考虑要不要跳槽去一个大平台，虽然薪资差不多，但感觉大平台势能更大",
+      "reason": "用户思考公司选择的势能差异，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "创业选方向的时候，怎么判断哪个赛道更有势能？怎么借势起飞？",
+      "reason": "用户问战略方向和借势，势能核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉自己选错了行业，一直在走下坡路，怎么判断一个行业还有没有势能？",
+      "reason": "用户思考行业势能，核心触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "上证指数最近走势怎么样？能帮我分析一下趋势吗？",
+      "reason": "股票趋势分析，非势能思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "这只股票的K线形态是不是要突破了？什么时候买入合适？",
+      "reason": "具体股票技术分析，与势能思维无关"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "帮我看看这个基金近三年的净值走势，值不值得定投？",
+      "reason": "基金走势分析，非势能思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "人工智能这个行业现在是不是已经过了红利期，还值得进入吗？",
+      "reason": "涉及行业势能判断但偏具体行业咨询"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "选择去一线城市还是回老家发展，哪个更有发展潜力？",
+      "reason": "涉及位置选择的势能差异，但表述偏生活决策"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

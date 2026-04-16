@@ -1,0 +1,59 @@
+{
+  "skill": "metacognition-control",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "我知道应该早起、应该运动、应该学习，但就是控制不住自己去做",
+      "reason": "用户知道该做什么但做不到，元认知控制核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "总是管不住自己，计划列了一堆但从来没执行过，感觉自己没办法自律",
+      "reason": "用户控制不住自己，缺乏元认知管理能力"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想学会管理自己的思维模式，不要总是被情绪带着跑",
+      "reason": "用户想管理思维模式，元认知控制核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我明明知道发脾气不好，但每次情绪一上来就控制不住，事后又后悔",
+      "reason": "知道但做不到的情绪失控，元认知控制场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "怎么才能让自己在关键时刻保持冷静，不被本能反应支配？",
+      "reason": "用户想控制本能反应，元认知核心"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "冥想的时候怎么才能不胡思乱想？有什么技巧吗？",
+      "reason": "冥想技巧，非元认知控制思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "我家孩子确诊了注意力缺陷多动症（ADHD），吃什么药效果好？",
+      "reason": "医学治疗问题，不属于元认知控制"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "正念冥想和内观有什么区别？初学者适合哪种？",
+      "reason": "冥想方法咨询，非元认知思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "每次焦虑的时候我都试着深呼吸让自己冷静，但感觉效果有限，还有其他方法吗？",
+      "reason": "从具体技巧延伸到更深层思维管理需求"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "听说正念可以帮助自控力，这背后的原理是什么？",
+      "reason": "涉及自控力原理但偏正念方向"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,59 @@
+{
+  "skill": "time-merchant",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "现在工资太低了，想提高收入，但不知道从哪个方向发力",
+      "reason": "用户想提高收入，属于时间商人核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我在纠结是继续上班还是去做自媒体，这两种赚钱方式哪个更值得投入时间？",
+      "reason": "用户对比不同赚钱方式，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想搞个副业增加收入，不知道做什么好，有没有思路？",
+      "reason": "用户问副业选择，涉及时间价值变现"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "同样是工作八小时，为什么有的人收入是我的十倍？差距到底在哪里？",
+      "reason": "用户思考时间价值差异，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉自己卖时间赚钱太慢了，有没有办法让时间的回报更高？",
+      "reason": "用户想提升时间单价，核心触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "茅台这只股票现在能不能买？大家怎么看？",
+      "reason": "具体股票投资建议，非时间价值框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "现在买基金定投沪深300怎么样，年化大概多少？",
+      "reason": "具体投资产品咨询，非时间商人思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "比特币现在入场还来得及吗？适合长期持有吗？",
+      "reason": "具体投资品讨论，不属于时间价值框架"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我想学编程转行做程序员，值得花两年时间投入吗？",
+      "reason": "涉及时间投入与回报的权衡，但偏具体职业规划"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "做知识付费卖课和做直播带货，哪个变现更快？",
+      "reason": "对比赚钱方式但偏具体业务选择"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

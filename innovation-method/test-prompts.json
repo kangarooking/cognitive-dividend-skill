@@ -1,0 +1,59 @@
+{
+  "skill": "innovation-method",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "想做出一款有差异化的产品，但想不到好的创新点，有没有方法论？",
+      "reason": "用户想创新、产品需要差异化，创新方法核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "团队头脑风暴总是老调重弹，怎么才能激发真正的创新想法？",
+      "reason": "用户寻找新点子、创新方法，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉市面上的产品都同质化了，怎么做才能做出不一样的东西？",
+      "reason": "用户想创新差异化，创新方法核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "创新有没有什么可以学习的方法？还是说只能靠灵感和天赋？",
+      "reason": "用户问创新方法论，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我们行业太卷了，都是一样的模式，怎么才能找到突破性的新思路？",
+      "reason": "用户在饱和市场寻找创新突破口"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "GPT-4的API怎么调用？能帮我写一段调用代码吗？",
+      "reason": "具体技术API使用，非创新方法论"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "Stable Diffusion怎么本地部署？需要什么显卡配置？",
+      "reason": "具体技术应用问题，非创新思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "区块链技术在供应链金融中的应用前景怎么样？",
+      "reason": "某具体技术的应用分析，非创新方法论"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "能不能把AI技术和传统教育行业结合起来做点创新？有什么好的切入点？",
+      "reason": "涉及创新但偏具体技术应用方向"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我们用了一种新技术做产品，但用户不买单，这算不算创新失败？",
+      "reason": "涉及创新反思但偏具体产品评估"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

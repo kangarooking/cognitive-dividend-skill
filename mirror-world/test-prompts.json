@@ -1,0 +1,54 @@
+{
+  "skill": "mirror-world",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "有个投资机会，可能翻倍也可能血本无归，我该不该投？很纠结",
+      "reason": "用户面对不确定结果、投资犹豫，镜像世界核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想创业但害怕失败，怎么评估风险？万一亏了怎么办？",
+      "reason": "用户面对创业风险和不确定性，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "做了一个项目，投入了很多，但结果完全不在预期之内，该怎么面对这种不确定性？",
+      "reason": "用户面对不确定结果，镜像世界场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "为什么有些人敢于冒险，有些人却什么都怕？怎么在不确定的环境下做出好的判断？",
+      "reason": "用户思考不确定性下的决策，镜像世界核心"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "零基础学Java大概多久能找到工作？学习路线是什么？",
+      "reason": "确定性很高的技能学习问题，不涉及不确定性思维"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "考公务员需要准备哪些科目？备考半年够不够？",
+      "reason": "路径清晰的考试问题，确定性高"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "驾照科目二考试有什么技巧？怎么一次过？",
+      "reason": "确定性技能考试，不涉及镜像世界"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "学编程找工作确定性还挺高的，但我想做独立开发者，这条路不确定性太大了，值得吗？",
+      "reason": "从确定性场景延伸到不确定性思考"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "想辞职去读研，但不确定读完以后就业形势会怎样，这种不确定性怎么权衡？",
+      "reason": "涉及不确定性决策，但偏具体人生选择"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

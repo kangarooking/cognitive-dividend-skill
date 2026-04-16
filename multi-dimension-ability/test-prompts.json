@@ -1,0 +1,54 @@
+{
+  "skill": "multi-dimension-ability",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "想提升自己的个人价值，让自己变得更有竞争力，该从哪些方面发力？",
+      "reason": "用户想提升个人价值和竞争力，多维能力核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "公司里和我做同样工作的人太多了，怎么才能让自己不可替代？",
+      "reason": "用户想变得不可替代，核心多维能力触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉自己的核心竞争力不够，想要建立自己的独特优势",
+      "reason": "用户想建立独特竞争优势，多维能力核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "同样是做设计，有的人月薪五千，有的人月薪五万，差距到底在哪？",
+      "reason": "用户思考竞争力差异，核心触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "Python从零开始怎么学？有什么好的教程推荐？",
+      "reason": "问具体技能学习，非多维能力思维框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "Photoshop和Illustrator哪个更适合做UI设计？",
+      "reason": "具体工具技能比较，非多维能力框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "怎么在三个月内快速学会英语口语？",
+      "reason": "具体技能学习方法，不属于多维能力"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我是做运营的，要不要学点编程？这样会不会更有竞争力？",
+      "reason": "涉及多维度竞争力，但偏向具体技能选择"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "现在市场上最缺什么技能？我该学什么才能不被淘汰？",
+      "reason": "涉及竞争力和不可替代性，但偏向市场分析"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

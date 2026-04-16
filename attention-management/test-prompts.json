@@ -1,0 +1,59 @@
+{
+  "skill": "attention-management",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "每天感觉自己特别忙，但回头一看好像什么都没做完，时间根本不够用",
+      "reason": "用户抱怨时间不够用、效率低，属于注意力管理核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我发现自己刷短视频根本停不下来，一刷就两三个小时，太上瘾了",
+      "reason": "用户表达刷手机上瘾，注意力被劫持的典型场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "工作的时候总是走神，一会儿看微信一会儿刷微博，根本没法集中注意力",
+      "reason": "用户注意力分散，无法专注工作"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "明明有很多事要做，但就是拖着不行动，效率极低，该怎么办",
+      "reason": "用户效率低、拖延，涉及注意力调配问题"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉每天被各种消息通知打断，注意力完全碎片化了，怎么才能找回深度专注的能力",
+      "reason": "用户注意力碎片化，渴望深度专注"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "有没有好用的番茄钟APP推荐一下？",
+      "reason": "单纯询问工具推荐，不涉及注意力管理思维层面"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "请教一下怎么用Notion做时间管理，有没有模板分享？",
+      "reason": "纯工具使用问题，不是注意力管理范畴"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "苹果自带的时间管理功能怎么设置屏幕使用时间限制？",
+      "reason": "技术操作问题，非注意力管理思维"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我用了番茄钟但还是忍不住看手机，有什么更深层的方法吗？",
+      "reason": "从工具使用过渡到注意力管理思维，边界模糊"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "每天做时间规划但总是执行不了，是不是我的时间管理方法有问题？",
+      "reason": "表面问时间管理方法，实际可能是注意力分配问题"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

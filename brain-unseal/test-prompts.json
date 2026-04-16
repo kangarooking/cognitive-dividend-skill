@@ -1,0 +1,59 @@
+{
+  "skill": "brain-unseal",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "我做不到，这个事情太难了，我根本没办法完成",
+      "reason": "用户说'做不到''没办法'，思维封印核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "好烦啊，什么都不想做，感觉所有事情都在跟自己作对",
+      "reason": "负面情绪多、自我封闭，思维封印场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我觉得自己就是不行，不管怎么努力都不可能成功，这就是命吧",
+      "reason": "强烈的自我否定，思维封印典型表现"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "每次遇到新挑战第一反应就是'我不行'，怎么才能打破这种思维惯性？",
+      "reason": "用户意识到自我封印并想打破，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉自己被困在了一个思维牢笼里，什么都想做但什么都觉得不可能",
+      "reason": "用户感到思维被限制，思维封印核心场景"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "抑郁症患者除了吃药还有什么治疗方式？心理治疗有效吗？",
+      "reason": "心理疾病的医学治疗咨询，非思维封印框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "焦虑症发作的时候吃什么药能缓解？副作用大不大？",
+      "reason": "医学治疗问题，不属于思维解封"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "心理咨询师和心理咨询师有什么区别？怎么选择？",
+      "reason": "心理服务咨询，非思维封印"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "最近心情一直不好，感觉什么都提不起兴趣，但又说不上是为什么",
+      "reason": "负面情绪但不确定是思维封印还是情绪问题"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我从小就被说笨，现在做什么都没自信，这算不算心理问题？",
+      "reason": "涉及自我认知封印但表述偏心理问题方向"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

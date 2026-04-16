@@ -1,0 +1,54 @@
+{
+  "skill": "nlp-levels",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "我总是抱怨工作环境不好、领导不行，但又没法改变，很焦虑",
+      "reason": "用户反复抱怨环境，卡在环境层，核心NLP逻辑层次触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "我已经非常努力了，每天加班到很晚，但为什么还是没什么成果？",
+      "reason": "用户纠结于努力程度，卡在行为层，NLP核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "为什么面对同样的事情，有的人很淡定，有的人却崩溃了？差别在哪？",
+      "reason": "用户问为什么同一问题不同人反应不同，NLP核心场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "感觉自己一直在低层次打转，怎么才能突破到更高的认知层面？",
+      "reason": "用户想理解认知层次并突破，核心NLP触发"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "能解释一下认知行为疗法（CBT）的基本原理吗？",
+      "reason": "心理学专业问题，非NLP逻辑层次"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "弗洛伊德的精神分析理论和现代心理学有什么区别？",
+      "reason": "学术心理学问题，不属于NLP逻辑层次框架"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "推荐几本心理学入门书籍吧，想系统学一下",
+      "reason": "学习资源推荐，非NLP思维框架"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "我觉得自己能力不行，是不是该换个方向？还是应该提升能力？",
+      "reason": "涉及能力层和身份层的判断，但偏向具体决策"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "有的人遇到困难就怪社会，有的人却默默努力，这种心态差异是怎么形成的？",
+      "reason": "接近NLP层次的洞察，但表述偏社会学视角"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

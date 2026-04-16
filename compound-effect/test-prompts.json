@@ -1,0 +1,54 @@
+{
+  "skill": "compound-effect",
+  "version": "0.1.0",
+  "source_book": "认知红利 — 谢春霖",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "感觉每天都很努力，但好像没有任何积累，为什么努力看不到回报？",
+      "reason": "用户困惑努力没回报，可能缺乏复利思维"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "想设计一个持续增长的策略，让我的能力像滚雪球一样越滚越大",
+      "reason": "用户想设计增长策略、建立正循环，核心触发"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "为什么有的人越做越轻松，我却越做越累？差别到底在哪？",
+      "reason": "用户对比线性增长和指数增长，核心复利思维场景"
+    },
+    {
+      "type": "should_trigger",
+      "prompt": "怎么才能让自己的成长形成正向循环，而不是每次都从零开始？",
+      "reason": "用户想建立正循环，核心复利效应场景"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "年化收益率8%的基金，投10万块20年后能变成多少？帮我算一下",
+      "reason": "具体理财复利计算，非思维模型层面"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "银行定期存款的复利和单利怎么算？哪个更划算？",
+      "reason": "纯数学计算问题，非复利思维模型"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "房贷等额本息和等额本金哪个更省钱？能帮我对比一下吗？",
+      "reason": "具体贷款计算，与复利思维无关"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "每天坚持学一点英语，长期来看真的会有质的飞跃吗？",
+      "reason": "涉及持续积累效应，但偏具体学习行为"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "坚持写公众号半年了，粉丝增长很慢，是不是应该换个策略？",
+      "reason": "涉及增长策略但偏具体运营问题"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
