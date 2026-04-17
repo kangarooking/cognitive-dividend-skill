@@ -109,6 +109,20 @@ cognitive-dividend-skill/
 - [No Rules Rules Skill](https://github.com/kangarooking/no-rules-rules-skill) — 网飞自由与责任文化的 10 个组织设计 skill
 - [Duan Yongping Skill](https://github.com/kangarooking/duan-yongping-skill) — 段永平投资问答录的 15 个商业与投资 skill
 
+## 关于作者
+
+**袋鼠帝 kangarooking** — AI 博主，独立开发者。AI Top 公众号「袋鼠帝 AI 客栈」主理人
+
+火山引擎领航 KOL，百度千帆开发者大使，GLM 布道师，Trae 昆明第一任 Fellow
+
+| 平台 | 链接 |
+|------|------|
+| 𝕏 Twitter（袋鼠帝） | https://x.com/aikangarooking |
+| 小红书（袋鼠帝） | https://xhslink.com/m/5YejKvIDBbL |
+| 抖音（袋鼠帝） | https://v.douyin.com/hYpsjphuuKc |
+| 公众号 | 袋鼠帝 AI 客栈 |
+| 视频号 | AI 袋鼠帝 |
+
 ## License
 
 MIT. See [LICENSE](./LICENSE).
